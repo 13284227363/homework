@@ -31,3 +31,9 @@ Array.prototype.myforEach = function (callback,thisArg) {
     }
 
 }
+
+array.myforEach(function (value,index,arr) {
+    console.log(value);
+    console.log(index);
+    console.log(arr);
+})
